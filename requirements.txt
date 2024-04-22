@@ -47,7 +47,7 @@ oauthlib==3.2.1
 packaging==21.3
 pandas==1.4.4
 pathtools==0.1.2
-Pillow==9.2.0
+Pillow==10.3.0
 portalocker==2.6.0
 promise==2.3
 protobuf==3.20.1
