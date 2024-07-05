@@ -3,7 +3,8 @@
 import logging
 
 from tree_sitter import Language
-from tree_sitter.binding import Parser
+#from tree_sitter.binding import Parser
+from tree_sitter import Parser
 
 from cc_extractor.transform.python.context import PythonCodeContext
 import timeout_decorator

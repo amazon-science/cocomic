@@ -2,7 +2,8 @@
 
 from typing import List, Optional
 
-from tree_sitter.binding import Node as TSNode
+from tree_sitter import Node as TSNode
+#from tree_sitter.binding import Node as TSNode
 
 from cc_extractor.transform.base.base_context import BaseCodeContext
 

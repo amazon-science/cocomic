@@ -4,9 +4,11 @@ import logging
 from collections import defaultdict
 from typing import List, Dict, Callable
 
-from tree_sitter.binding import Node as TSNode
-from tree_sitter.binding import Tree as TSTree
+from tree_sitter import Node as TSNode
+from tree_sitter import Tree as TSTree
 
+#from tree_sitter.binding import Node as TSNode
+#from tree_sitter.binding import Tree as TSTree
 from cc_extractor.transform.base.token import (Token,
                                 CodeLineTokens)
 

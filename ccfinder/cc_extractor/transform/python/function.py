@@ -1,7 +1,8 @@
 from asyncio.log import logger
 from typing import List, Union, Optional
 
-from tree_sitter.binding import Node as TSNode
+from tree_sitter import Node as TSNode
+#from tree_sitter.binding import Node as TSNode
 
 from cc_extractor.transform.base.base_function import BaseFunction
 from cc_extractor.transform.python.context import PythonCodeContext

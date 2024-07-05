@@ -1,8 +1,11 @@
 import logging
 from typing import List, Dict
 
-from tree_sitter.binding import Node as TSNode
-from tree_sitter.binding import Tree as TSTree
+from tree_sitter import Node as TSNode
+from tree_sitter import Tree as TSTree
+
+#from tree_sitter.binding import Node as TSNode
+#from tree_sitter.binding import Tree as TSTree
 
 from cc_extractor.transform.base.base_context import BaseCodeContext
 

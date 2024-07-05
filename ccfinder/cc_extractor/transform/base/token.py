@@ -2,7 +2,8 @@
 
 from collections import namedtuple
 
-from tree_sitter.binding import Node as TSNode
+from tree_sitter import Node as TSNode
+#from tree_sitter.binding import Node as TSNode
 
 
 class Token:

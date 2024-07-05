@@ -54,7 +54,7 @@ cd ts_package;
 # Download the tree-sitter package
 git clone https://github.com/tree-sitter/tree-sitter-python.git;
 # checkout to 0.20.0 version
-git checkout 2b9e9e0d231d5dd9f491d47f704817baee7d5af0;
+git checkout v0.21.0;
 cd ..;
 # Build tree-sitter
 python build_ts_lib.py
