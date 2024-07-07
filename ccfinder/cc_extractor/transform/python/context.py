@@ -7,7 +7,7 @@ from tree_sitter.binding import Tree as TSTree
 from cc_extractor.transform.base.base_context import BaseCodeContext
 
 logger = logging.getLogger(__name__)
-PY_MAX_LINE_LENGTH = 1000  # accepted max line length
+PY_MAX_LINE_LENGTH = 100000  # accepted max line length
 
 
 class PythonCodeContext(BaseCodeContext):
