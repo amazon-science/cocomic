@@ -41,7 +41,7 @@ multidict==6.0.2
 multiprocess==0.70.13
 networkx==2.8.4
 ninja==1.10.2.3
-nltk==3.7
+nltk
 numpy==1.23.1
 oauthlib==3.2.1
 packaging==21.3
