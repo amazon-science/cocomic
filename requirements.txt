@@ -10,7 +10,7 @@ click==8.1.3
 colorama==0.4.6
 cycler==0.11.0
 datasets==2.3.2
-deepspeed==0.7.2
+deepspeed
 dill==0.3.5.1
 docker-pycreds==0.4.0
 filelock==3.8.0
